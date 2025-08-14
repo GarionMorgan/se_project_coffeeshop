@@ -33,6 +33,11 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: color 0.5s;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
