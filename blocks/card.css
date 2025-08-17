@@ -1,6 +1,5 @@
 .card {
-  max-width: 540px;
-  width: auto;
+  width: 540px;
 }
 
 .card__list {

@@ -2,10 +2,11 @@
   padding: 30px 80px 40px;
   background: center / cover no-repeat #fff url(../images/background_header.svg);
   position: relative;
-  max-height: 800px;
-  height: auto;
+  height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -39,10 +40,9 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  max-width: 646px;
-  max-height: 568px;
-  height: 95%;
-  width: 95%;
+  width: 646px;
+  height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
